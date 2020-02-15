@@ -1,0 +1,129 @@
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ ls
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ pwd
+/e/getrepo/work/278
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ get init
+bash: get: command not found
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ get init
+bash: get: command not found
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ ^C
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ ls -a
+./  ../
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ touch 111.txt
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ git commit -m 首次提交
+fatal: not a git repository (or any of the parent directories): .git
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ ^C
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278
+$ git init
+Initialized empty Git repository in E:/getrepo/work/278/.git/
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        111.txt
+        222.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        111.txt
+        222.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278 (master)
+$ get add 111.txt
+bash: get: command not found
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278 (master)
+$ get add *.txt
+bash: get: command not found
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278 (master)
+$ ^C
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278 (master)
+$ ^C
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278 (master)
+$ git add *.txt
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   111.txt
+        new file:   222.txt
+
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278 (master)
+$ get commit -m 首次提交
+bash: get: command not found
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278 (master)
+$ git commit -m 首次提交
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '南依@DESKTOP-BIIHHOO.(none)')
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278 (master)
+$ notepad++ 111.txt
+bash: notepad++: command not found
+
+南依@DESKTOP-BIIHHOO MINGW64 /e/getrepo/work/278 (master)
+$
